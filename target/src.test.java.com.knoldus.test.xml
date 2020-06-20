@@ -1,0 +1,45 @@
+<testsuite failures="0" name="src/test/java/com/knoldus/test.feature" skipped="0" tests="2" time="9.616725">
+  <testcase classname="src.test.java.com.knoldus.test" name="Sample Api to be tested" time="4.807429">
+    <system-out>Given url dummyBaseUrl .................................................... passed
+And path 'api/v1/create' .................................................. passed
+And request {"name":Sparsh,"salary":30000,"age":"22"} ..................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match $.data.name == 'Sparsh' ......................................... passed
+And def id = $.data.id .................................................... passed
+Given path '/api/v1/update/' + id ......................................... passed
+And request {"name":"test1","salary":"1123","age":"23"} ................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.com.knoldus.test" name="Sample Api to be tested" time="4.809295">
+    <system-out>Given url dummyBaseUrl .................................................... passed
+And path 'api/v1/create' .................................................. passed
+And request {"name":Sparsh,"salary":30000,"age":"22"} ..................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match $.data.name == 'Sparsh' ......................................... passed
+And def id = $.data.id .................................................... passed
+Given path '/api/v1/update/' + id ......................................... passed
+And request {"name":"test1","salary":"1123","age":"23"} ................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+Given url dummyBaseUrl .................................................... passed
+And path 'api/v1/create' .................................................. passed
+And request {"name":Bhardwaj,"salary":15000,"age":"22"} ................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match $.data.name == 'Bhardwaj' ....................................... passed
+And def id = $.data.id .................................................... passed
+Given path '/api/v1/update/' + id ......................................... passed
+And request {"name":"test1","salary":"1123","age":"23"} ................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

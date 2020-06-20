@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/com/knoldus/test.feature" skipped="0" tests="1" time="2.903009">
+  <testcase classname="src.test.java.com.knoldus.test" name="Sample Api to be tested" time="2.903009">
+    <system-out>Given url apiURL .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.total == 12 ............................................ passed</system-out>
+  </testcase>
+</testsuite>
