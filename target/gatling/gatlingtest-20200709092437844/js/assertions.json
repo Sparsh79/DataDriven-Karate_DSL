@@ -1,0 +1,10 @@
+{
+  "simulation": "Performance.GatlingTest",
+  "simulationId": "gatlingtest",
+  "start": 1594286677844,
+  "description": "",
+  "scenarios": ["get the test feature file"],
+  "assertions": [
+
+  ]
+}

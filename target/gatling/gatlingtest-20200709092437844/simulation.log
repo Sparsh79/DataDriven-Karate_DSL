@@ -1,0 +1,4 @@
+RUN	Performance.GatlingTest	gatlingtest	1594286677844	 	3.0.2
+USER	get the test feature file	1	START	1594286679276	1594286679276
+REQUEST	1		GET /api/users?page=2/	1594286681208	1594286682466	OK	 
+USER	get the test feature file	1	END	1594286679276	1594286682508

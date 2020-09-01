@@ -5,8 +5,8 @@ import com.intuit.karate.Runner;
 import org.junit.Test;
 
 /**Cucumber Option to run Karate API*/
-@KarateOptions(tags={"@SampleAPI"},
-        features = {"src/test/java/com/knoldus"}
+@KarateOptions(tags={"@Demo"},
+        features = {"src/test/java"}
 )
 public class Run {
     /**This is the API Test runner Junit*/
