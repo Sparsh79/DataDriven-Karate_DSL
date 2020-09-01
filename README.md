@@ -12,7 +12,7 @@ Capabilities
 
 You can manually invoke the Gatling plugin from the command-line by using.
 
-"mvn clean test-compile gatling:test".
+```mvn clean test-compile gatling:test```
 
 For better understanding, you may refer to this blog.
 
